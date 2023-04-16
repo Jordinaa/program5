@@ -1,3 +1,3 @@
 # program5
 
-![output.png](output of program)
+![image](output.png)

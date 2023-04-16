@@ -17,7 +17,6 @@ int main() {
         cerr << "Unable to open output file" << endl;
         exit(1);
     }
-
     for (const auto& error : errors) {
         outFile << error << endl;
     }
@@ -32,11 +31,6 @@ int main() {
 
     auto allProDreamTeam = createAllProDreamTeam(players);
     printAllProTeam("Pro Dream Team", allProDreamTeam);
-    
-    for (const auto& player : allProDreamTeam) {
-        // auto proPlayer = dynamic_cast<ProBasketballPlayer*>(player.get());
-        cout << player;
  
     return 0;
-}
 }

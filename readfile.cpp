@@ -90,9 +90,6 @@ void readNCAAPlayers(string fileName, vector<shared_ptr<BasketballPlayer>>& play
     outFile.close();
 }
 
-
-
-
 void readProPlayers(string fileName, vector<shared_ptr<BasketballPlayer>>& players, vector<string>& errors) {
     ifstream inFile(fileName);
     if (!inFile) {
